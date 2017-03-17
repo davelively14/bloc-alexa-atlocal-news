@@ -23,17 +23,3 @@ GetCategoryIntent fetch headlines for {category}
 GetCategoryIntent get headlines for {category}
 GetCategoryIntent get news for {category}
 GetCategoryIntent tell me news for {category}
-
-AMAZON.nextIntent skip headline
-AMAZON.nextIntent skip this headline
-AMAZON.nextIntent skip this
-AMAZON.nextIntent next one
-AMAZON.nextIntent next headline
-
-AMAZON.helpIntent
-AMAZON.cancelIntent
-AMAZON.noIntent
-AMAZON.pauseIntent
-AMAZON.resumeIntent
-AMAZON.stopIntent
-AMAZON.yesIntent

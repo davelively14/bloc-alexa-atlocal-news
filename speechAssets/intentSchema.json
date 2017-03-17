@@ -10,28 +10,28 @@
       ]
     },
     {
-      "intent": "AMAZON.nextIntent"
+      "intent": "AMAZON.NextIntent"
     },
     {
-      "intent": "AMAZON.helpIntent"
+      "intent": "AMAZON.HelpIntent"
     },
     {
-      "intent": "AMAZON.cancelIntent"
+      "intent": "AMAZON.CancelIntent"
     },
     {
-      "intent": "AMAZON.noIntent"
+      "intent": "AMAZON.NoIntent"
     },
     {
-      "intent": "AMAZON.pauseIntent"
+      "intent": "AMAZON.PauseIntent"
     },
     {
-      "intent": "AMAZON.resumeIntent"
+      "intent": "AMAZON.ResumeIntent"
     },
     {
-      "intent": "AMAZON.stopIntent"
+      "intent": "AMAZON.StopIntent"
     },
     {
-      "intent": "AMAZON.yesIntent"
+      "intent": "AMAZON.YesIntent"
     }
   ]
 }
