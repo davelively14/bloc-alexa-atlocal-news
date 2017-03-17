@@ -1,0 +1,41 @@
+GetNewHeadlineIntent a headline
+GetNewHeadlineIntent news
+GetNewHeadlineIntent news headline
+GetNewHeadlineIntent a news headline
+GetNewHeadlineIntent tell me the news
+GetNewHeadlineIntent give me the news
+GetNewHeadlineIntent a new headline
+GetNewHeadlineIntent tell me a headline
+GetNewHeadlineIntent tell me a new headline
+GetNewHeadlineIntent give me a headline
+GetNewHeadlineIntent give me a new headline
+GetNewHeadlineIntent what's going on
+GetNewHeadlineIntent what's going on in Atlanta
+GetNewHeadlineIntent start local news
+GetNewHeadlineIntent what's going on
+SkipCurrentIntent skip
+SkipCurrentIntent skip headline
+SkipCurrentIntent skip this headline
+SkipCurrentIntent skip this
+SkipCurrentIntent next headline
+SkipCurrentIntent next
+SkipCurrentIntent next one
+
+GetCategoryIntent fetch {category}
+GetCategoryIntent get {category}
+GetCategoryIntent tell me about {category}
+GetCategoryIntent what's going on in {category}
+GetCategoryIntent give me {category} headlines
+GetCategoryIntent fetch headlines for {category}
+GetCategoryIntent get headlines for {category}
+GetCategoryIntent get news for {category}
+GetCategoryIntent tell me news for {category}
+
+AMAZON.helpIntent
+AMAZON.cancelIntent
+AMAZON.nextIntent
+AMAZON.noIntent
+AMAZON.pauseIntent
+AMAZON.resumeIntent
+AMAZON.stopIntent
+AMAZON.yesIntent
