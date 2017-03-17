@@ -1,0 +1,37 @@
+{
+  "intents": [
+    {
+      "intent": "GetNewHeadlineIntent"
+    },
+    {
+      "intent": "GetCategoryIntent",
+      "slots": [
+        { "name": "category", "type": "string" }
+      ]
+    },
+    {
+      "intent": "AMAZON.nextIntent"
+    },
+    {
+      "intent": "AMAZON.helpIntent"
+    },
+    {
+      "intent": "AMAZON.cancelIntent"
+    },
+    {
+      "intent": "AMAZON.noIntent"
+    },
+    {
+      "intent": "AMAZON.pauseIntent"
+    },
+    {
+      "intent": "AMAZON.resumeIntent"
+    },
+    {
+      "intent": "AMAZON.stopIntent"
+    },
+    {
+      "intent": "AMAZON.yesIntent"
+    }
+  ]
+}
