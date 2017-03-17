@@ -6,7 +6,7 @@
     {
       "intent": "GetCategoryIntent",
       "slots": [
-        { "name": "category", "type": "string" }
+        { "name": "category", "type": "LIST_OF_CATEGORIES" }
       ]
     },
     {
