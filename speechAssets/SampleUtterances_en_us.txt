@@ -13,13 +13,6 @@ GetNewHeadlineIntent what's going on
 GetNewHeadlineIntent what's going on in Atlanta
 GetNewHeadlineIntent start local news
 GetNewHeadlineIntent what's going on
-SkipCurrentIntent skip
-SkipCurrentIntent skip headline
-SkipCurrentIntent skip this headline
-SkipCurrentIntent skip this
-SkipCurrentIntent next headline
-SkipCurrentIntent next
-SkipCurrentIntent next one
 
 GetCategoryIntent fetch {category}
 GetCategoryIntent get {category}
@@ -31,9 +24,14 @@ GetCategoryIntent get headlines for {category}
 GetCategoryIntent get news for {category}
 GetCategoryIntent tell me news for {category}
 
+AMAZON.nextIntent skip headline
+AMAZON.nextIntent skip this headline
+AMAZON.nextIntent skip this
+AMAZON.nextIntent next one
+AMAZON.nextIntent next headline
+
 AMAZON.helpIntent
 AMAZON.cancelIntent
-AMAZON.nextIntent
 AMAZON.noIntent
 AMAZON.pauseIntent
 AMAZON.resumeIntent
