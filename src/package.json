@@ -1,0 +1,24 @@
+{
+  "name": "ATLocal",
+  "version": "1.0.0",
+  "description": "Local Atlanta news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Alexa",
+    "skill",
+    "A T L News",
+    "ATLocal"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.4.7"
+  },
+  "author": "resurgens.io",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davelively14/bloc-alexa-atlocal-news.git"
+  }
+}
