@@ -6,11 +6,14 @@
     {
       "intent": "GetCategoryIntent",
       "slots": [
-        { "name": "category", "type": "LIST_OF_CATEGORIES" }
+        { "name": "station", "type": "LIST_OF_STATIONS" }
       ]
     },
     {
       "intent": "AMAZON.NextIntent"
+    },
+    {
+      "intent": "AMAZON.PreviousIntent"
     },
     {
       "intent": "AMAZON.HelpIntent"
