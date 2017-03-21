@@ -13,7 +13,8 @@
     "ATLocal"
   ],
   "dependencies": {
-    "aws-sdk": "^2.4.7"
+    "aws-sdk": "^2.4.7",
+    "alexa-sdk": "^1.0.7"
   },
   "author": "resurgens.io",
   "license": "MIT",
