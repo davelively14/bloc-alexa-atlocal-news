@@ -14,12 +14,12 @@ GetNewHeadlineIntent what's going on in Atlanta
 GetNewHeadlineIntent start local news
 GetNewHeadlineIntent what's going on
 
-GetCategoryIntent fetch {station}
-GetCategoryIntent get {station}
-GetCategoryIntent tell me about {station}
-GetCategoryIntent what's going on in {station}
-GetCategoryIntent give me {station} headlines
-GetCategoryIntent fetch headlines for {station}
-GetCategoryIntent get headlines for {station}
-GetCategoryIntent get news for {station}
-GetCategoryIntent tell me news for {station}
+GetStationIntent station {station}
+GetStationIntent fetch {station}
+GetStationIntent get {station}
+GetStationIntent tell me about {station}
+GetStationIntent give me headlines from {station}
+GetStationIntent fetch headlines from {station}
+GetStationIntent get headlines from {station}
+GetStationIntent get news from {station}
+GetStationIntent tell me news from {station}
