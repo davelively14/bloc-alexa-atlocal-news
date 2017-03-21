@@ -4,7 +4,7 @@
       "intent": "GetNewHeadlineIntent"
     },
     {
-      "intent": "GetCategoryIntent",
+      "intent": "GetStationIntent",
       "slots": [
         { "name": "station", "type": "LIST_OF_STATIONS" }
       ]
