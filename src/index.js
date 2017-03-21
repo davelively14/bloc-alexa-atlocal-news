@@ -15,6 +15,6 @@ var handlers = {
     this.emit("GetHeadline");
   },
   "GetHeadline": function() {
-
+    
   }
 };
