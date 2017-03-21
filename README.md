@@ -11,7 +11,7 @@ CBS 2 Action News:
 
 Get HTML:
 ```node
-?
+http
 ```
 
 ```javascript
