@@ -6,8 +6,14 @@ var jsdom = require("jsdom").jsdom;
 // TODO: Remove this
 var constants = require("./constants");
 
-var getLinks = function (url) {
-  var domain = "https://www.youtube.com";
+/**
+ * Given a url for a YouTube playlist, will pull links to up to 100 videos and
+ * call the callback function, passing those links as an array.
+ * @param  {string}   url      URL of YouTube playlist
+ * @param  {Function} callback Callback function, will be passed the playlist
+ */
+var fido = function (url, callback) {
+  let domain = "https://www.youtube.com";
 
   Https.get(url, function (resp) {
     let body = "";
@@ -18,12 +24,19 @@ var getLinks = function (url) {
     })
     .on("end", function() {
       let doc = jsdom(body);
-      console.log(domain + doc.getElementsByClassName("pl-video-title-link")[0].href);
+      let playlist = [];
+      let pathList = doc.getElementsByClassName("pl-video-title-link");
+
+      for (var i = 0; i < pathList.length; i++) {
+        playlist.push(domain + pathList[i].href);
+      }
+
+      callback(playlist);
     });
   });
 };
 
 // TODO: Remove this. Testing purposes only
-getLinks(constants.stations.Fox5);
+fido(constants.stations.Fox5, console.log);
 
-module.exports = getLinks;
+module.exports = fido;

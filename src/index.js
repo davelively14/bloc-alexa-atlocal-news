@@ -1,6 +1,7 @@
 "use strict";
 var Alexa = require("alexa-sdk");
 var constants = require("./constants");
+// var fido = require("./fido");
 
 exports.handler = function(event, context, _callback) {
   var alexa = Alexa.handler(event, context);
@@ -17,6 +18,6 @@ var handlers = {
     this.emit("GetHeadline");
   },
   "GetHeadline": function() {
-    this.emit(":tell", "This is a test");
+    this.emit(":tell", "This is the test");
   }
 };
